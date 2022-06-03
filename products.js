@@ -3,6 +3,7 @@ const products = [
     id: 'rec43w3ipXvP28vog',
     title: 'python',
     company: 'front',
+    href: 'https://www.google.com.br/',
     // company: 'ikea',
     image:
     //   'https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg',
@@ -13,6 +14,8 @@ const products = [
     id: 'rec4f2RIftFCb7aHh',
     title: 'React',
     company: 'marcos',
+    href: 'index.html',
+
     image:
     //   'https://dl.airtable.com/.attachments/f3450755e165557344f7d6433242431e/93533098/product-1.jpeg',
     // price: 79.99,
