@@ -168,6 +168,10 @@ Products
 /* .product {
   margin-bottom: 1rem;
 }*/
+.product footer {
+  padding: 0.75rem 0;
+  text-align: center;
+} 
 .product-img {
   border-radius: var(--borderRadius);
   height: 15rem;
@@ -178,17 +182,25 @@ Products
 } */
  .product-name {
    text-align: center;
-  margin-bottom: 0.25rem;
+  /* margin-bottom: 0.25rem;
   text-transform: capitalize;
   letter-spacing: var(--letterSpacing);
-  color: var(--grey-500);
+  color: var(--grey-500); */
+}
+.product-text{
+  text-align: justify;
+}
+.ts{
+ text-indent: 30%;
+ text-align: center;
+
+}
+p{
+  text-indent: 30%;
 }
  .product-subtitle {
    text-align: center;
-  margin-bottom: 0.25rem;
-  text-transform: capitalize;
-  letter-spacing: var(--letterSpacing);
-  color: var(--grey-500);/*
+  /*
 }
 .product-price {
   margin-bottom: 0;

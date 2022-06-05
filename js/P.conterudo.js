@@ -12,7 +12,7 @@ const displayProducts = () => {
   //         </a>  
   productsContainer.innerHTML = filteredProducts
     .map((product) => {
-      const { id, title, subtitle, image, price, href } = product;
+      const { id, title, subtitle, text, image, price, href } = product;
       return `<article class="product" data-id="${id}">
             
           <footer>
@@ -24,12 +24,43 @@ const displayProducts = () => {
               alt=""
             />
             <h3 class="product-subtitle">${subtitle}</h3>
+            <h4 class="product-text">${text}</h4>
+            
+            <p>Python é uma linguagem poderosa e divertida. Com ela você pode fazer diversas coisas como:</p>      
+            
+            <p>Construção de sistemas Web com Django, Flask, Pyramid, etc.</p> 
+            
+            <p>O que são VirtualEnvs ? O ideal para projetos Python é que você isole as bibliotecas que você usa, para 
+            evitar conflitos entre projetos.Isso é uma boa prática e pode evitar dores de cabeça futuras.Dê uma lida 
+            sobre antes de iniciar um projeto grande, ok ? </p>
+
+            <p>Python é uma linguagem poderosa e divertida. Com ela você pode fazer diversas coisas como:</p>      
 
           </footer>
         </article>`;
     })
     .join('');
 };
+
+{/* <time datetime="2016-01-20">20 January 2016</time> */ }
+
+{/* <address>
+            <p>Chris Mills, Manchester, The Grim North, UK</p>
+          </address>
+          
+          <address>
+  <p>Page written by <a href="../authors/chris-mills/">Chris Mills</a>.</p>
+</address> */}
+
+//   <dl>
+//   <dt>solilóquio</dt>
+//   <dd>No drama, onde um personagem fala a si mesmo, representando seus pensamentos ou sentimentos internos e no processo, transmitindo-os ao público (mas não a outros personagens).</dd>
+//   <dt>monólogo</dt>
+//   <dd>No drama, onde um personagem fala seus pensamentos em voz alta para compartilhá-los com o público e com outros personagens presentes.</dd>
+//   <dt>aparte</dt>
+//   <dd>No drama, onde um personagem compartilha um comentário apenas com o público para efeito humorístico ou dramático. Isso geralmente é um sentimento, pensamento ou parte de informação de fundo adicional.</dd>
+// </dl>
+
 
 // productsContainer.innerHTML = filteredProducts
 // .map((product) => {
